@@ -1,0 +1,10 @@
+|smartHome
+rfid => openMotor.OUTPUTSELECT
+laser => led.DATAIN
+button => openMotor.DATAA
+button2 => led2.DATAIN
+led << laser.DB_MAX_OUTPUT_PORT_TYPE
+led2 << button2.DB_MAX_OUTPUT_PORT_TYPE
+openMotor <= openMotor.DB_MAX_OUTPUT_PORT_TYPE
+
+

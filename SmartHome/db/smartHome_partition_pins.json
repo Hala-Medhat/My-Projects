@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "led",
+					"strict" : false
+				},
+				{
+					"name" : "led2",
+					"strict" : false
+				},
+				{
+					"name" : "openMotor",
+					"strict" : false
+				},
+				{
+					"name" : "laser",
+					"strict" : false
+				},
+				{
+					"name" : "button2",
+					"strict" : false
+				},
+				{
+					"name" : "rfid",
+					"strict" : false
+				},
+				{
+					"name" : "button",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

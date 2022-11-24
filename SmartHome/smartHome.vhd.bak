@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+entity smartHome is 
+port(
+rfid : in std_logic;
+closeMotor:in std_logic;
+openMotor : out std_logic);
+end smrtHome;
+architecture arch of smartHome is
+begin 
+process(rfid,closeMotor)
+begin
+if rfid = '1' then
+openMotor<='1';
+end if;
+if closeMotor = '1' then
+openMotor<='0';
+end if;
+end process;
+end arch;
+

@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;200;400&family=Work+Sans:wght@100;200;300;400&display=swap');
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1 , h2, p , select{
+    font-family: 'Roboto',sans-serif;
+}
+h5{
+    font-family: Arial, 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    color: rgb(107,107,107);
+}
+body{
+    position: relative;
+
+
+}
+
+.nav{
+    position:sticky;
+    top:0;
+    background:#ffffff ;
+    background-color: white;
+    z-index:1;
+
+    
+}
+
+
+#header{
+    margin-left: 16rem;
+    padding-bottom: 1em;
+    position: relative;
+}
+
+
+#header p{
+    display: inline;
+    width: -10px;
+    font-weight: 400;
+    font-size: 1.3rem;
+    font-weight: 300;
+
+}
+#header a{
+    text-decoration: none;
+}
+#green{
+    color: #00b39b;
+}
+#grey{
+    color: #a9a9a9;
+}
+#nav{
+    text-align: left;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0 0.7em;
+    font-size: 15px;
+
+
+}
+.list li  {
+    font-size: 0.7rem;
+    color: #a9a9a9;
+    padding: 0.7em 0;
+    margin: 0 0;
+    position: relative;
+    left:-2.5rem;
+    font-family: 'Roboto' , Arial , sans-serif;
+    width:11.8rem ;
+    padding-left: 0.5rem;
+}
+.list ul{
+    list-style: none;
+    position: absolute;
+    right: 9.5rem;
+    top:2.1rem;
+    width:10rem;
+    height: 9.5rem;;
+    margin-left: 100px;
+    box-shadow: 0 0 1.3em -0.5em;
+    background-color: white;
+    display: none;
+   
+}
+.options a:hover + .list ul{
+    display: inline;
+}
+.list ul:hover{
+    display: inline;
+}
+.list a{
+    text-decoration: none;
+    color: rgb(184, 184, 184);
+}
+.list li:hover a{
+    color: #00b39b;
+   
+}
+.list li:hover{
+    background-color: white;
+    box-shadow: 0 0 1em -0.5em;
+}
+nav {
+    display:flex;
+    justify-content: space-between;
+    margin-right: 150px;
+
+}
+nav ul li a:hover{
+    color: #00b39b;
+}
+nav li a {
+    color:#a9a9a9 ;
+    text-decoration: none;
+}
+nav #header::before{
+    content: url(../checkpoint2/images/logo.png);
+   position: relative;
+   top:10px;
+   left: -7px;
+   
+
+}
+
+.intro img{
+    margin: 3% 48% 0.2% 48%;
+    width: 40px;
+}
+.info{
+    display: grid;
+    grid-template-columns: 21rem 21rem;
+    grid-template-rows: 30px;
+    grid-column-gap: 3rem;
+    margin: -2em 5rem 9rem 18rem;
+    position:relative
+    
+
+
+}
+.title {
+    text-align: center;
+    font-size: 1.5rem;
+    word-spacing: 0.02em;
+    margin-bottom: 7%;
+    margin-top: 1%;
+    font-weight: 300;
+    
+}
+.info p {
+    line-height: 30px;
+    font-size: 0.75em;
+    font-weight:400;
+    color: rgb(107,107,107);
+    ;
+
+   
+} 
+.for   {
+    display: flex;
+    position:relative;
+    justify-items: center;
+    align-content: center;
+    margin-left: 17rem;
+    
+}
+.for div {
+    max-width:13rem;
+    height:18rem;
+    border-radius: 5%;
+    color: white;
+    padding-left: 1em;
+    position: relative;
+    padding-right: 1em;
+    margin: 0 0.5em;
+    width: 100%;
+    
+    
+}
+.patients{
+    background-color:#00b39b ;
+}
+.doctors{
+    background-color: #5190e2;
+}
+.clients{
+    background-color: #1b2734;
+}
+.for div h2 {
+    margin-top: 80px;
+    font-size:18px;
+    font-weight: 400;
+    margin-bottom: 7px;
+    
+}
+.for div p{
+    font-weight: 300;
+    font-size: 1em;
+    margin-top: 0.5rem;
+    word-spacing:6px;
+
+}
+.for select{
+    border: none;
+    background: transparent;
+    font-weight: 300;
+    color: white;
+    text-decoration: underline;
+    font-size: 1em;
+    position: absolute;
+    bottom: 2rem;
+    
+    
+    
+}
+  #specialist_top {
+     position: absolute;
+    bottom: 20%;
+}
+.for .patients img{
+    position: absolute;
+    top :13%;
+    width:35px;
+    height: 23px;
+
+}
+.for .doctors img{
+    position: absolute;
+    top :10%;
+    width:50px;
+    height: 45px;
+    left:10%
+
+}
+.for .clients img{
+    position: absolute;
+    top :7%;
+    width:80px;
+    height: 60px;
+    left:7%
+
+}
+.for select option:enabled{
+    color:black;
+    border: none;
+}
+.for select option:visited{
+    border: none;
+}
+
+#global{
+    font-size: 1.1rem;
+  margin-left: 17rem;
+  margin-right: -6em;
+   font-weight: 300;
+   max-width: 20rem;
+   word-spacing: 3px;
+   color: #2fbea9;
+   width: 22rem;
+   position:relative;
+  
+   
+    
+}
+.we_are .places ul li {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0.3em 1em;
+    font-size: 0.9em;
+    
+
+}
+.we_are .places ul li a{
+    color: #a9a9a9;
+    text-decoration: none;
+}
+
+.we_are{
+    display: flex;
+    padding-bottom: 2rem;
+    justify-items: flex-start;
+    
+
+    
+}
+.clock i{
+    padding: 2px;
+}
+.load {
+   
+    text-align: center;
+}
+.load span i{
+    display: block;
+    font-size: 15px;
+    margin-bottom: -8px;
+    width: 2rem;
+
+}
+
+.logo{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.logo li ::before , .extra::before{
+    content: url(../checkpoint2/images/logo2.png);
+    padding-right: 0.3rem;
+    position: relative;
+    z-index: -1;
+}
+.cloud i{
+    font-size: 13px;
+}
+.cloud {
+    display: block;
+    position: relative;
+}
+.cloud span{
+    display: inline-block;
+    
+}
+
+.load{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: lighters;
+}
+ul .logo li a:hover, .extra span:hover{
+    color:#00b39b;
+}
+ul .logo li a:hover::before , .extra:hover::before{
+    content: url(../checkpoint2/images/logo3.png);
+    
+}
+.load span:hover{
+    color: rgb(6, 184, 238);
+
+}
+.clock .green:hover{
+    color:#00b39b ;
+}
+.clock .blue:hover{
+    color: rgb(111, 92, 219);
+}
+.cloud :hover{
+    color:rgb(0, 0, 131);
+}
+.cloud i:hover{
+    color: black;
+}
+.platfrom{
+    background-color: #82f5e6;
+    position: absolute;
+    left:0;
+    right: 0;
+    
+}
+
+.biggest_platform {
+    padding:  0 0 0 17rem;
+    position: relative;
+
+    
+}
+.biggest_platform h5{
+    color: rgb(107,107,107);
+    font-weight: 400;
+    max-width: 20rem;
+    font-size:0.82em ;
+    
+
+
+}
+.biggest_platform p{
+    font-family: 'Roboto'Arial, sans-serif;
+    max-width: 15rem;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 3rem;
+    word-spacing: 0.1rem;
+    padding-bottom: -2%;
+    
+}
+.grid {
+    display: grid;
+    grid-template-rows: 12rem 12rem;
+    grid-template-columns: 12rem 12rem;
+    grid-column-gap: 1rem;
+    padding-left: 9rem;
+
+}
+.leader , .appointments , .mln_patients ,.active_drs{
+    border-radius:0.3rem ;
+    background-color: white;
+    position: relative;
+
+}
+.leader .head , .active_drs .head , .mln_patients .head , .appointments .head{
+    position: relative;
+    margin-top: 4rem;
+    
+}
+.leader::before{
+    content:url(../checkpoint2/images/flag.png);
+    position: absolute;
+    left:5rem;
+    padding-top: 1em;
+    
+    
+}
+.mln_patients::before{
+    content:url(../checkpoint2/images/patients.png);
+    position: absolute;
+    left:5rem;
+    padding-top: 1em;
+}
+.active_drs::before{
+    content:url(../checkpoint2/images/pep.png);
+    position: absolute;
+    left:5rem;
+    padding-top: 1em;
+}
+.appointments::before{
+    content:url(../checkpoint2/images/app.png);
+    position: absolute;
+    left:5rem;
+    padding-top: 1em;
+}
+.head{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+.leader{
+    top:2rem;
+}
+.appointments{
+    top:1rem;
+}
+.mln_patients{
+    top:3rem
+
+}
+.active_drs{
+    top:2rem;
+}
+.platform  {
+    display: flex;
+    background-color: #cbf7f1;
+    height: 29rem;
+    background-image: url(../checkpoint2/images/logo_cropped.png);
+    background-repeat: no-repeat;
+    background-position:10% 98%;
+    background-size:cover;
+}
+.biggest_platform h5 ::before{
+   content: url(../checkpoint2/images/logo_cropped1.png);
+
+}
+.grid h5{
+    text-align: center;
+}
+.improve p{
+    position: relative;
+    max-width: 17rem;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 3rem;
+
+    
+}
+.improve{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0 2rem 0 33rem;
+
+
+}
+.improve h5{
+    width:22rem;
+    margin-left:-1.9rem;
+    margin-top: 0.5rem;
+
+
+}
+.countries{
+    display: grid;
+    grid-template-columns: 15rem 15rem 15rem;
+    column-gap: 1.5em;
+    row-gap: 2em;
+    margin-left: 17rem;
+    margin-top: 2em;
+    
+}
+.countries img{
+    width:15rem;
+    height: 15rem;
+}
+.countries .img-title{
+    display: flex;
+    align-items: center;
+    width: 100%;
+   
+}
+.countries button{
+    font-size: 0.54em;
+    margin: 0.75rem -3rem 0.75rem 5rem;
+    padding: 0.4rem 0.3rem;
+    background-color: rgb(15, 64, 224);
+    color: white;
+    border-radius: 0.3rem;
+    border: solid;
+
+}
+.countries p{
+  margin-left: 2em;
+  font-size: 0.85rem;
+  color: #a9a9a9;
+  font-weight: 300;
+  position: relative;
+}
+.countries .image{
+    background-color: rgb(255, 255, 255);
+    color: rgb(241, 235, 235);
+
+}
+.countries .shadow :hover{
+    box-shadow: 0 0 1.3em -0.5em;
+    color: rgb(184, 184, 184);
+}
+.patients:hover,.doctors:hover,.clients:hover{
+    opacity: 0.9;
+}
+footer{
+    margin-top:2rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 33rem;
+    justify-items: center;
+}
+footer h3{
+    font-family: "Roboto" , Arial, sans-serif;
+    font-weight: 300;
+    position: relative;
+}
+footer button{
+    margin-right: 35rem;
+    font-size: 0.6rem;
+    background-color: rgb(31, 107, 250);
+    color: white;
+    border: solid;
+    position: absolute;
+    bottom: -0.4rem;
+    right:-3rem
+}
+
+
+
+
+
+
